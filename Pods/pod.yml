@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: tantalizing-tutankhamun
+  name: hello-pod
   labels:
     app: web
 spec:
