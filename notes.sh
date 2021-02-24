@@ -1,7 +1,10 @@
 kubectl cluster-info
 
 -- to build and push a docker container image to repository
-docker image build -t pradeepkumaresan/getting-started-k8s:1.0 .
+docker image build \
+-f <DockerfileName> \
+-t pradeepkumaresan/getting-started-k8s:1.0
+
 docker image push pradeepkumaresan/getting-started-k8s:1.0
 
 -- to run a pod from a container repository
