@@ -1,3 +1,9 @@
+Install docker
+wget -qO- https://test.docker.com/ | sh
+sudo apt  install docker-compose
+sudo usermod -aG docker <user-name> - to run docker seamlessly with a non root user.
+
+
 kubectl cluster-info
 
 -- to build and push a docker container image to repository
